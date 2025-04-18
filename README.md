@@ -28,27 +28,24 @@ Before running the script, ensure you have the following Python libraries instal
 * **scikit-learn:** For the Ridge regression model and evaluation metrics.
 
 You can install these libraries using pip:
-
-```bash
+```
 pip install pandas matplotlib scikit-learn
-
+```
 Additionally, you need to have the weather.csv file in the same directory as the Python script.
 Usage
 
     Clone the repository (if you have this script in a GitHub repository):
     Bash
-
+```
 git clone <repository_url>
 cd <repository_name>
-
+```
 Ensure the weather.csv file is in the same directory as the Python script.
 
 Run the Python script:
 Bash
 
-    python your_script_name.py
-
-    (Replace your_script_name.py with the actual name of your Python file).
+    python script.py
 
     Follow the on-screen menu to select the visualizations you want to see. Enter the corresponding number (1, 2, 3, or 4) and press Enter.
 
@@ -68,13 +65,13 @@ Model Details
 The script uses a Ridge regression model with an alpha value of 0.1. Ridge regression is a linear model that adds an L2 penalty to the least squares objective, which helps to prevent overfitting, especially when dealing with potentially correlated predictor variables.
 Potential Improvements
 
-    More sophisticated feature engineering: Explore other time-based features (e.g., day of the year, lagged temperature values).
-    Different machine learning models: Experiment with other regression algorithms like Linear Regression, Support Vector Regression, or time series models like ARIMA or Prophet.
-    Hyperparameter tuning: Optimize the alpha value for the Ridge regression model using techniques like cross-validation.
-    More comprehensive error analysis: Investigate the residuals and identify patterns in the prediction errors.
-    Saving the trained model: Persist the trained model to avoid retraining it every time the script is run.
-    Clearer plotting: Add more descriptive labels, titles, and potentially save the generated plots.
-    Error handling: Implement more robust error handling for file reading and user input.
+   More sophisticated feature engineering: Explore other time-based features (e.g., day of the year, lagged temperature values).
+   Different machine learning models: Experiment with other regression algorithms like Linear Regression, Support Vector Regression, or time series models like ARIMA or Prophet.
+   Hyperparameter tuning: Optimize the alpha value for the Ridge regression model using techniques like cross-validation.
+   More comprehensive error analysis: Investigate the residuals and identify patterns in the prediction errors.
+   Saving the trained model: Persist the trained model to avoid retraining it every time the script is run.
+   Clearer plotting: Add more descriptive labels, titles, and potentially save the generated plots.
+   Error handling: Implement more robust error handling for file reading and user input.
 
 Author
 
