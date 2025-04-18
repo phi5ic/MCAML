@@ -76,4 +76,4 @@ The script uses a Ridge regression model with an alpha value of 0.1. Ridge regre
 
 Author
 
-Aravind Anilraj (Phi5ic)
+Aravind Anilraj (phi5ic)
