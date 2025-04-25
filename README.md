@@ -1,4 +1,7 @@
+
 # Weather Data Analysis and Temperature Prediction
+
+Note: This is a proof of concept please refer to the potential improvements sections to make it suitable to other datasets as well. Thanks 😊 
 
 This repository contains a Python script (`script.py`) that performs weather data analysis and predicts the next day's maximum temperature. It utilizes the pandas library for data manipulation, matplotlib for visualization, and scikit-learn for building a linear regression model.
 
